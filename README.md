@@ -9,7 +9,7 @@ sitenin açılmasını sağlayabilirsiniz. site ilk başta ayarlanmış olarak :
 # İletişim
 Github profilimde discord adresi olması gerekiyor oradan yazabilirsiniz.
 
-#Önemli!
+# Önemli!
 
 Bu basit bir site şuanlık bir özellik yok ama biraz daha büyük bir site yapmayı düşünüyorum eğer yaparsam yolum yine github olur :)
 Takipte kalın!
