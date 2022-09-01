@@ -2,8 +2,10 @@
 # basit-kisisel-web-site
 Basit bir şekilde oluşturduğum kişisel bir web site.
 
+# Web site örneği
 <img src="/views/css/img/theChain - Kişisel Web Sitesi - Google Chrome 2022-09-01 18-43-10_Trim.gif">
 
+Görsel kalitesi biraz düşük çıkmış, özür dilerimm :(
 
 # Nasıl Kurulur?
 Kurulumu yapmak için ilk başta Dosyaları indirin. Sonra bilgisayarınızda Node.js var mı diye kontrol edin eğer varsa bir problem yok ama yok ise 
