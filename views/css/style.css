@@ -1,0 +1,253 @@
+/* Bu altyapi theChain tarafından yapılmıştır! Eger bir sorun yasar iseniz github profilimden discord profilime ulaşabilirsiniz */
+/* Emeğe saygı konusunda altyapıyı kendininiz çalmamanız her türlü daha hoş olur */
+
+
+/* Main  -- Main -- Main -- Main -- Main -- Main   */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home {
+    height: 100vh;
+    /* background: linear-gradient(rgba(0,0,0,0.9), #009688), url("./img/back.jfif"); */
+    background:  url("./img/1567665.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* filter: blur(7.5px); */
+    /* Ortalama */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+::-webkit-scrollbar{display: none;}
+
+ /* Profile Card  -- Profile Card -- Profile Card -- Profile Card -- Profile Card -- Profile Card   */
+#main {
+    box-shadow: 25px 10px 20px rgba(0, 0, 0, 0.288);
+    height: 400px;
+    width: 400px;
+    /* background-color: rgba(0, 150, 136, 0.8); */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Paddin - Margin - Ortalama */
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;  
+    text-align: center;
+    animation-name: mainLoading;
+    animation-duration: 1s;
+    color: rgba(255, 255, 255,0.8);
+}
+#profile{    padding: 50px 125px;}
+#avatar {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#textAlani h1 {
+ /* color: rgba(0, 0, 0, 0.288); */
+ font-size:42px ;
+ text-align: center;
+ margin: auto;
+ margin-bottom: 5px;
+}
+#textAlani span {
+    text-align: center;
+    font-style: italic;
+    font-size:18px;
+    /* color: rgba(0, 0, 0, 0.288); */
+    padding-bottom: 100px;
+}
+@keyframes mainLoading{
+    to{box-shadow: 25px 10px 20px rgba(0, 0, 0, 0.288);
+    border-radius: 0;}
+    from{box-shadow: 200px 10px 20px rgba(0, 0, 0, 0.288);
+    border-radius: 30%;}
+    }
+/* buttons  -- buttons -- buttons -- buttons -- buttons -- buttons -- buttons -- buttons -- buttons */
+
+.imgs {
+    font-size: 26px;
+    color: rgba(255, 255, 255,0.8);
+    transition:  all .4s;
+}
+.imgs:hover {
+    font-size: 33px;
+    color: #2c5364;
+}
+#buttonArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#buttonArea ul {
+  list-style: none;
+  display: flex;
+}
+
+#buttonArea ul li {
+    padding: 25px 50px;
+    }
+
+
+/* meArea  -- meArea -- meArea -- meArea -- meArea -- meArea -- meArea -- meArea -- meArea */
+
+    #meArea {
+        padding: 10px 5px;
+        background-color: #000;
+        color: #fff;
+        animation-name: loading;
+        animation-duration: 0.5s;
+        overflow: scroll;
+    }
+#meArea h1 {
+    padding-bottom: 13px;
+}
+#meArea p {
+    padding-bottom: 15px;
+}
+    .meArea-icons {
+        font-size: 35px;
+    margin-top: 10px;
+    padding: 20px;
+    }
+
+    .meArea-icons i{
+        color: #cfcfcf;
+        cursor: pointer;
+        margin-right: 10px;
+        transition:  all .4s;
+        /* font-size: 50px; */
+    }
+    
+    .meArea-icons i:hover{
+        color: #2c5364;
+    }
+
+
+
+/* Denemeler  */
+
+#program {
+    padding: 10px;
+    background-color: rgba(255, 255, 255,1);
+    border-radius:0 35% 0 15% ;
+    color: #000;
+    text-align: left;
+}
+.prgDivElement {
+    background-color: #555;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+.prgDivElement span {
+    background-color: rgb(253, 33, 4);
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+}
+@keyframes HTML{to{padding-right: 30px;}from{padding-right: 99%;}}
+@keyframes JavasLoad{to{padding-right: 70px;}from{padding-right: 99%;}}
+@keyframes Python{to{padding-right: 150px;}from{padding-right: 99%;}}
+/* Denemerl */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .cancel{
+    width: 50px;
+    height: 50px;
+    background:white;
+    border-radius: 50% 50% 50% 50%;
+    color: rgb(70, 70, 70);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .4s;
+    margin: 0 auto;
+    margin-bottom: 10px;
+} 
+.cancel i {
+    color : #555
+} 
+/* meArea Animations  */
+@keyframes loading{
+    to{border-radius: 0px;
+    background-color: #000;}
+    from{    background-color: rgba(255, 255, 255, 0.4);
+    }}
+/* @keyframes nodeJSBarLoading{to{width: 280px;}from{width: 10px;}} */
+
+@keyframes meAreaExitAnimation {
+    to{
+    padding: 50px 125px;
+    background-color: rgba(255, 255, 255, 0);;
+    }
+    from{
+    padding: 25px 125px;
+    background-color: #000;
+    }
+}
+
+/* Projects Area -- Projects Area -- Projects Area -- Projects Area -- pRojects Area */
+
+#projectsArea {
+    padding: 10px 5px;
+    background-color: #000;
+    color: #fff;
+    animation-name: loading;
+    animation-duration: 0.5s;
+}
+.projelerim {
+    height: 80px;
+    background-color: #555;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    padding: 15px 20px;
+    overflow: scroll;
+}
+.projeResmi img {
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+/* .projectsExit {
+    margin: 30px auto;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+} */
+.ProjeAnlatim p{font-size: 14px;}
+.ProjeAnlatim h1{padding: 0;}
+
+/* Call Area -- Call Area -- Call Area -- Call Area -- Call Area */
+
+#callArea {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    animation-name: loading;
+    animation-duration: 0.5s;
+}
+#iletisimYerleri {
+    font-size: 30px;
+    margin: 30px;
+}
+.callExit {
+    margin-bottom: 27px;
+}
+
+#discordİframe {
+    padding-bottom: 20px;
+    width: 95%;
+    height: 220px;
+}
