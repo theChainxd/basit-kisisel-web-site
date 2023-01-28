@@ -1,6 +1,6 @@
 
 # basit-kisisel-web-site
-Basit bir şekilde oluşturduğum kişisel bir web site.
+Basit görünümlü aşırıya kaçmayan kişisel portfolyo benzeri bir site.
 
 # Web site örneği
 <img src="/views/css/img/theChain - Kişisel Web Sitesi - Google Chrome 2022-09-01 18-43-10_Trim.gif">
